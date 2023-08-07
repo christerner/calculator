@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    font-size: 36px;
+}
+.number {
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+.operator {
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+.decimal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+.equal {
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.clear {
+    font-size: 36px;
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+.number:hover {
+    background-color: greenyellow;    
+}
+.operator:hover {
+    background-color: steelblue;
+}
+.decimal:hover {
+    background-color: gold;    
+}
+.equal:hover {
+    background-color: pink;
+}
+.clear:hover {
+    background-color: violet;    
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.screen {
+    width: 280px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 70px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous {
+    font-size: 20px;
+    padding-right: 5px;    
+}
+.current {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
