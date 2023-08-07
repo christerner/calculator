@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    flex-wrap: wrap;
+    
 }
 
 .btn {
@@ -14,7 +16,7 @@ body {
     font-size: 36px;
 }
 .number {
-    border: 1px solid greenyellow;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 .operator {
@@ -35,7 +37,7 @@ body {
     border-radius: 10px;
 }
 .number:hover {
-    background-color: greenyellow;    
+    background-color: gray;    
 }
 .operator:hover {
     background-color: steelblue;
